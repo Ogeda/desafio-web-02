@@ -5,3 +5,128 @@
 }
 
 /* Seu código css aqui */
+
+Body {
+    background: #0f0f0f;
+}
+
+header {
+    background: #212121;
+}
+
+.logo {
+    margin: 16px 64px;
+    display: inline-block;
+}
+
+.logo img {
+    height: 24px;
+    width: 80px;
+}
+
+.canal-info {
+    background: #181818;
+}
+
+.content {
+    width: 860px;
+    margin: 0 auto;
+}
+
+.canal-info .canal-nome {
+    display: flex;
+    align-items: center;
+}
+
+.canal-info .canal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.canal-content .canal-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin: 0 24px 0 0;
+}
+
+.canal-nome h2 {
+    font: 24px "Roboto", sans-serif;
+    color: #fff;
+    margin-right: 8px;
+}
+
+.canal-nome img {
+    height: 20px;
+    width: 20px;
+}
+
+.canal-content span {
+    font: 14px "Roboto", sans-serif;
+    color: #aaa;
+    margin: 5px 0 0 0;
+    display: block;
+}
+
+.button .btn-member {
+    color: #3ea6ff;
+    border: 1px solid #3ea6ff;
+    border-radius: 2px;
+    font: 14px "Roboto", sans-serif;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin-right: 8px;
+}
+
+.button .btn-singup {
+    border-radius: 2px;
+    font: 16px "Roboto", sans-serif;
+    color: #fff;
+    background: #c00;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+.video {
+    margin: 30px;
+}
+
+.video .video-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-video iframe {
+    margin-right: 30px;
+}
+
+.video-texto h4 {
+    font: 14px "Roboto", sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.video-texto p {
+    font: 14px "Roboto", sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.video-texto span {
+    font: 13px "Roboto", sans-serif;
+    color: #aaa;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.video-texto a {
+    font: 14px "Roboto", sans-serif;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+.video-texto a:hover {
+    color: #fff;
+}
