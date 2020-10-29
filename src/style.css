@@ -77,20 +77,37 @@ header {
     font: 14px "Roboto", sans-serif;
     text-transform: uppercase;
     padding: 8px 16px;
-    margin-right: 8px;
+    margin-right: 4px;
 }
 
 .button .btn-singup {
     border-radius: 2px;
-    font: 16px "Roboto", sans-serif;
+    font: 14px "Roboto", sans-serif;
     color: #fff;
     background: #c00;
     text-transform: uppercase;
     padding: 8px 16px;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    font: 14px "Roboto", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 30px 0px 20px 0;
+    margin-right: 24px;
+}
+
 .video {
-    margin: 30px;
+    margin: 40px 0 0 0;
+}
+
+.video .content {
+    display: flex;
 }
 
 .video .video-content {
